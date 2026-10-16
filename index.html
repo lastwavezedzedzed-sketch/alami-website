@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عالمي | مساحتي الخاصة</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f6ff;
+      color: #30264a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6554a4, #a18cd1);
+      color: white;
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin: 0 0 15px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background: white;
+      padding: 16px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #6554a4;
+      text-decoration: none;
+      margin: 8px 12px;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px 20px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 5px 20px #30264a10;
+    }
+
+    .card .emoji {
+      font-size: 38px;
+    }
+
+    .card h3 {
+      color: #6554a4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #30264a;
+      color: white;
+      margin-top: 45px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>مرحبًا بك في عالمي ✨</h1>
+    <p>مساحتي الخاصة لأجمع فيها كل ما أحب</p>
+  </header>
+
+  <nav>
+    <a href="#about">الرئيسية</a>
+    <a href="#articles">مقالاتي</a>
+    <a href="#photos">صوري</a>
+    <a href="#videos">فيديوهاتي</a>
+    <a href="#library">مكتبتي</a>
+  </nav>
+
+  <main>
+    <section class="intro" id="about">
+      <h2>كل أفكاري في مكان واحد 💜</h2>
+      <p>أهلًا بك في عالمي، المكان الذي أستطيع فيه جمع أفكاري وإبداعاتي واهتماماتي.</p>
+    </section>
+
+    <section class="sections">
+      <article class="card" id="articles">
+        <div class="emoji">📝</div>
+        <h3>مقالاتي وخواطري</h3>
+        <p>مساحة للكتابة والتعبير عن الأفكار.</p>
+      </article>
+
+      <article class="card" id="photos">
+        <div class="emoji">🖼️</div>
+        <h3>صوري وتصاميمي</h3>
+        <p>مكان لعرض الصور والأعمال الإبداعية.</p>
+      </article>
+
+      <article class="card" id="videos">
+        <div class="emoji">🎬</div>
+        <h3>فيديوهاتي</h3>
+        <p>مساحة لجمع الفيديوهات المفضلة.</p>
+      </article>
+
+      <article class="card" id="library">
+        <div class="emoji">📚</div>
+        <h3>مكتبتي</h3>
+        <p>مكان لتنظيم الملفات والموارد المفيدة.</p>
+      </article>
+
+      <article class="card" id="links">
+        <div class="emoji">🔗</div>
+        <h3>روابطي المفضلة</h3>
+        <p>مجموعة من المواقع والروابط المهمة.</p>
+      </article>
+
+      <article class="card" id="ideas">
+        <div class="emoji">💡</div>
+        <h3>أفكار متنوعة</h3>
+        <p>مساحة مفتوحة لأي شيء جديد.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    صُنع بحب 💜 | عالمي 2026
+  </footer>
+</body>
+</html>
